@@ -26,7 +26,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="O3555Fg7rb92sw_5UQ0D-8" value="车票预售系统" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="200" y="255" width="120" height="80" as="geometry" />
+          <mxGeometry x="200" y="220" width="120" height="115" as="geometry" />
         </mxCell>
         <mxCell id="O3555Fg7rb92sw_5UQ0D-10" value="提&lt;div&gt;供&lt;/div&gt;&lt;div&gt;个&lt;/div&gt;&lt;div&gt;人&lt;/div&gt;&lt;div&gt;信&lt;/div&gt;&lt;div&gt;息&lt;/div&gt;&lt;div&gt;及&lt;/div&gt;&lt;div&gt;订&lt;/div&gt;&lt;div&gt;票&lt;/div&gt;&lt;div&gt;信&lt;/div&gt;&lt;div&gt;息&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="70" y="140" width="40" height="170" as="geometry" />
