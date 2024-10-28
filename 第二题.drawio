@@ -1,9 +1,115 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="24.8.3">
   <diagram name="第 1 页" id="WTJ5LCtxItuRmBaZjD2c">
-    <mxGraphModel>
+    <mxGraphModel dx="3237" dy="3101" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="CRS1ihYScwM29EPPZHNr-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="30" width="630" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="CRS1ihYScwM29EPPZHNr-3" value="车票预售系统" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="300" y="10" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CRS1ihYScwM29EPPZHNr-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="CRS1ihYScwM29EPPZHNr-4" target="CRS1ihYScwM29EPPZHNr-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CRS1ihYScwM29EPPZHNr-4" value="订票信息处理" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="60" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CRS1ihYScwM29EPPZHNr-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="CRS1ihYScwM29EPPZHNr-5" target="CRS1ihYScwM29EPPZHNr-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="508" y="250" />
+              <mxPoint x="160" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CRS1ihYScwM29EPPZHNr-5" value="座位审核与记录" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="60" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CRS1ihYScwM29EPPZHNr-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="CRS1ihYScwM29EPPZHNr-6" target="CRS1ihYScwM29EPPZHNr-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-50" y="-60" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-60" y="390" />
+              <mxPoint x="-60" y="-70" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CRS1ihYScwM29EPPZHNr-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.84;entryY=0.013;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="CRS1ihYScwM29EPPZHNr-6" target="CRS1ihYScwM29EPPZHNr-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-50" y="440" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="142" y="500" />
+              <mxPoint x="-250" y="500" />
+              <mxPoint x="-250" y="-160" />
+              <mxPoint x="150" y="-160" />
+              <mxPoint x="150" y="-99" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CRS1ihYScwM29EPPZHNr-6" value="票据处理" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="350" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CRS1ihYScwM29EPPZHNr-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="CRS1ihYScwM29EPPZHNr-7" target="CRS1ihYScwM29EPPZHNr-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="550" y="520" />
+              <mxPoint x="850" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CRS1ihYScwM29EPPZHNr-7" value="车票信息查询" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="350" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CRS1ihYScwM29EPPZHNr-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="CRS1ihYScwM29EPPZHNr-8" target="CRS1ihYScwM29EPPZHNr-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CRS1ihYScwM29EPPZHNr-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="CRS1ihYScwM29EPPZHNr-8" target="CRS1ihYScwM29EPPZHNr-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="110" y="-130" />
+              <mxPoint x="-150" y="-130" />
+              <mxPoint x="-150" y="430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CRS1ihYScwM29EPPZHNr-8" value="顾客" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="-100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CRS1ihYScwM29EPPZHNr-10" value="提供&lt;div&gt;个人&lt;/div&gt;&lt;div&gt;信息&lt;/div&gt;&lt;div&gt;及订&lt;/div&gt;&lt;div&gt;票信息&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="100" y="-50" width="60" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="CRS1ihYScwM29EPPZHNr-14" value="验证信息" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="80" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CRS1ihYScwM29EPPZHNr-16" value="提供余票信息" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="305" y="220" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CRS1ihYScwM29EPPZHNr-18" value="提&lt;div&gt;供&lt;/div&gt;&lt;div&gt;取&lt;/div&gt;&lt;div&gt;票&lt;/div&gt;&lt;div&gt;单&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="110" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CRS1ihYScwM29EPPZHNr-20" value="提&lt;div&gt;供&lt;/div&gt;&lt;div&gt;取&lt;/div&gt;&lt;div&gt;票&lt;/div&gt;&lt;div&gt;单&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-190" y="110" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CRS1ihYScwM29EPPZHNr-22" value="Text" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="40" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CRS1ihYScwM29EPPZHNr-23" value="提&lt;div&gt;供&lt;/div&gt;&lt;div&gt;火&lt;/div&gt;&lt;div&gt;车&lt;/div&gt;&lt;div&gt;票&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-290" y="50" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CRS1ihYScwM29EPPZHNr-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="CRS1ihYScwM29EPPZHNr-24" target="CRS1ihYScwM29EPPZHNr-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CRS1ihYScwM29EPPZHNr-24" value="售票员" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="790" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CRS1ihYScwM29EPPZHNr-26" value="查询车票信息请求" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="690" y="360" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CRS1ihYScwM29EPPZHNr-28" value="提供车次票务信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="640" y="490" width="120" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
