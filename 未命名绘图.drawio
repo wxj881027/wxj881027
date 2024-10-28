@@ -1,35 +1,77 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="24.8.3">
   <diagram name="第 1 页" id="sZjTzFkNIRwu-lZDspos">
-    <mxGraphModel>
+    <mxGraphModel dx="2183" dy="570" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="2" value="Alice" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
-          <mxGeometry width="150" height="334" as="geometry" />
-        </mxCell>
-        <mxCell id="3" value="John" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
-          <mxGeometry x="257" width="150" height="334" as="geometry" />
-        </mxCell>
-        <mxCell id="4" value="Hello John, how are you?" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="2" target="3">
+        <mxCell id="O3555Fg7rb92sw_5UQ0D-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint x="70" y="100" as="sourcePoint" />
+            <mxPoint x="250" y="335" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="212" y="113" />
+              <mxPoint x="70" y="360" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="5" value="Great!" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="3" target="2">
+        <mxCell id="O3555Fg7rb92sw_5UQ0D-6" value="顾客" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="O3555Fg7rb92sw_5UQ0D-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="O3555Fg7rb92sw_5UQ0D-7" target="O3555Fg7rb92sw_5UQ0D-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O3555Fg7rb92sw_5UQ0D-7" value="售票员" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="O3555Fg7rb92sw_5UQ0D-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="O3555Fg7rb92sw_5UQ0D-8" target="O3555Fg7rb92sw_5UQ0D-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O3555Fg7rb92sw_5UQ0D-8" value="车票预售系统" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="255" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="O3555Fg7rb92sw_5UQ0D-10" value="提&lt;div&gt;供&lt;/div&gt;&lt;div&gt;个&lt;/div&gt;&lt;div&gt;人&lt;/div&gt;&lt;div&gt;信&lt;/div&gt;&lt;div&gt;息&lt;/div&gt;&lt;div&gt;及&lt;/div&gt;&lt;div&gt;订&lt;/div&gt;&lt;div&gt;票&lt;/div&gt;&lt;div&gt;信&lt;/div&gt;&lt;div&gt;息&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="70" y="140" width="40" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="O3555Fg7rb92sw_5UQ0D-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="O3555Fg7rb92sw_5UQ0D-8">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint x="50" y="100" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="215" y="171" />
+              <mxPoint x="260" y="400" />
+              <mxPoint x="35" y="400" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="6" value="See you later!" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=classic;endSize=10;" edge="1" parent="1" source="2" target="3">
+        <mxCell id="O3555Fg7rb92sw_5UQ0D-12" value="提&lt;div&gt;供&lt;/div&gt;&lt;div&gt;取&lt;/div&gt;&lt;div&gt;票&lt;/div&gt;&lt;div&gt;单&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="20" y="140" width="40" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="O3555Fg7rb92sw_5UQ0D-15" value="提&lt;div&gt;供&lt;div&gt;火&lt;div&gt;车&lt;div&gt;票&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="238" width="40" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="O3555Fg7rb92sw_5UQ0D-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=-0.002;entryY=0.385;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="O3555Fg7rb92sw_5UQ0D-8" target="O3555Fg7rb92sw_5UQ0D-6">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="212" y="229" />
+              <mxPoint x="302" y="470" />
+              <mxPoint x="-50" y="470" />
+              <mxPoint x="-50" y="63" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="O3555Fg7rb92sw_5UQ0D-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.705;entryY=0.987;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="O3555Fg7rb92sw_5UQ0D-6" target="O3555Fg7rb92sw_5UQ0D-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint y="85" />
+              <mxPoint y="440" />
+              <mxPoint x="285" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O3555Fg7rb92sw_5UQ0D-18" value="提&lt;div&gt;供&lt;/div&gt;&lt;div&gt;取&lt;/div&gt;&lt;div&gt;票&lt;/div&gt;&lt;div&gt;单&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="250" width="40" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="O3555Fg7rb92sw_5UQ0D-20" value="查询车票信息请求" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="260" y="80" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="O3555Fg7rb92sw_5UQ0D-22" value="提供车次票务信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="400" y="268" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
